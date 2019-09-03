@@ -1,6 +1,6 @@
-# Math 4610 Homework Solutions
+# Links To Repositories
 
-## Links to Task Sheets
+## Math 4610 Homework Solutions
 
-* [Task Sheet 1](https://jaxtonw.github.io/math4610)
+* [Math 4610](https://jaxtonw.github.io/math4610)
 
