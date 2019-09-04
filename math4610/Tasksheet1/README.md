@@ -7,7 +7,7 @@
 + **Task 5:**
   - If you're Dr. Koebbe, you'll know the results of this task.
 + **Task 6:**
-  - Checkout [DifferenceQuotient](./DifferenceQuotient) in my Math 4610 Repo.
+  - Checkout [DifferenceQuotient](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/DifferenceQuotient) in my Math 4610 Repo.
 + **Task 7:**
 
 + **Task 8:**
