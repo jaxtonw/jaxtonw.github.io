@@ -7,7 +7,7 @@
 + **Task 5:**
   - If you're Dr. Koebbe, you'll know the results of this task.
 + **Task 6:**
-  - Checkout [DifferenceQuotient](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/DifferenceQuotient) in my Math 4610 Repo.
+  - Checkout [Difference Quotient](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/DifferenceQuotient) in my Math 4610 Repo.
 + **Task 7:**
-
+  - Checkout [Error Approx](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Errors) in my Math 4610 Repo. I also included a routine that returns the percent representation of a relative error.
 + **Task 8:**
