@@ -3,7 +3,7 @@
 + **Task 1-3:**
   - If you're Dr. Koebbe, you'll know the results of these tasks.
 + **Task 4:**
-  - [Link to Results](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Task4)
+  - Checkout [my HelloWorld.py](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Task4) program in my Math 4610 repo.
 + **Task 5:**
   - If you're Dr. Koebbe, you'll know the results of this task.
 + **Task 6:**
