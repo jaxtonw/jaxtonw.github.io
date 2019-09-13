@@ -6,4 +6,4 @@
 
 * [math4610lib](https://github.com/jaxtonw/math4610/tree/master/math4610lib)
 
-* [Software Manual](./math4610/softwareManual/toc)
+* [Software Manual](./math4610/softwareManual/)
