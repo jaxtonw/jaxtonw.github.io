@@ -24,7 +24,7 @@ Method 1:
 Method 2 (after math4610lib has been installed with pip installer):
 
     import math4610lib
-    maceps32bit()
+    math4610lib.maceps32bit()
 
 Output from the lines above:
 
