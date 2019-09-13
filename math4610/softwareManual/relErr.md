@@ -1,35 +1,45 @@
 
-**Routine Name:** `AbsoluteError`
+**Routine Name:** `relErr`
 
 **Author:** Jaxton Winder
 
-**Language:** Python 3.7.4. This routine is dependent on numpy, a mathematical library that comes with many distributions of Python. Use pip installer to run ``pip install numpy`` if numpy is not present in your Python distribution.
+**Language:** Python 3.7.4.
 
-    python absoluteError.py
+**Description/Purpose:** This routine will return the relative error between two values, value and valueApprox. The relative error is the absolute value of the difference between value and valueApprox, divided by value.
 
-**Description/Purpose:** This routine will return the absolute error between two values, x and estimatedX. The absolute error is the absolute value of the difference between x and estimatedX.
+**Input:** There are two inputs required to use this function, value and valueApprox. Value is the value you are testing, and valueApprox is the approximation. It has an optional boolean input for percent. By default, percent is set as false. When percent is set to be true, the value returned will be represented as a percent error.
 
-**Input:** There are two inputs required to use this function, value and valueApprox. Value is the value you are testing, and valueApprox is the approximation.
-
-**Output:** This routine returns a double precision float that is the absolute value of the difference between value and valueApprox.
+**Output:** This routine returns a double precision float that is the absolute value of the difference between value and valueApprox, divided by value.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The routine has two arguments, value and valueApprox.  It has an optional boolean input for percent. By default, percent is set as false. When percent is set to be true, the value returned will be represented as a percent error. After importing the math4610lib, the routine can be used as follows:
 
-      error = AbsoluteError(5, 5.5)
-      print("error is: " + str(error))
+    import math4610lib
+    error = math4610lib.relErr(5, 5.5)
+    print("error is: " + str(error))
 
 Output from the lines above:
 
-      error is: .5
+      error is: .1
 
-**Implementation/Code:** The following is the code for `AbsoluteError(value, valueApprox)`
+Use the percent argument as follows:
 
-    def AbsoluteError(value, valueApprox):
-        return abs(valueApprox - value)
+    import math4610lib
+    error = math4610lib.relErr(5, 5.5, percent=True)
+    print("error is: " + str(error))
+
+Ouput from the lines above:
+
+    error is: 10
+
+**Implementation/Code:** The following is the code for `relErr(value, valueApprox, percent=False)`
+
+    def relErr(value, valueApprox, percent=False):
+        if value == 0: return
+        if percent:
+            return abs((value - valueApprox) / value) * 100
+        return abs((value - valueApprox) / value)
+
 
 **Last Modified:** September/2019
