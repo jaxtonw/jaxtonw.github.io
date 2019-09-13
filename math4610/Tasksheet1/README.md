@@ -11,9 +11,16 @@
 + **Task 7:**
   - Checkout [Error Approx](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Errors) in my Math 4610 Repo. I also included a routine that returns the percent representation of a relative error.
 + **Task 8:**
+  - Here is a link to the software manual table of contents. Alternatively, you can directly navigate to the 4 subroutines below.
+  - [maceps32bit](../softwareManual/maceps32bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps32bit.py)
+  - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps64bit.py)
+  - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/absoluteError.py)
+  - [relErr](../softwareManual/relErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/relativeError.py)
 
 + **Task 9:**
+  - To run the program that computes the derivative of e^x about \pi you need to ensure that the math4610lib is installed to your distribution of python. Click [this link](../softwareManual/installation.md) to see installation and update instructions of Jaxton Winder's math4610lib library.
+  - After the library is installed, checkout [my DifferenceQuotientAboutPi.py](https://github.com/jaxtonw/math4610/blob/master/Tasksheet1/DifferenceQuotient/DifferenceQuotientAboutPi.py) program for the results of Task 9.
 
 + **Task 10:**
-  - Absolute and Relative errors are computationally similar, but produce very different results and are used in different contexts. An absolute error function will produce the absolute value of the difference between two values, x and estimatedX. This is useful when you want to know the actual quantity of your error between x and estimatedX. The relative error will produce the absolute value of the difference between the two values x and estimatedX, divided by the target value x. This produces a value which represents the magnitude of the error in relation to the actual quantity of x. 
+  - Absolute and Relative errors are computationally similar, but produce very different results and are used in different contexts. An absolute error function will produce the absolute value of the difference between two values, x and estimatedX. This is useful when you want to know the actual quantity of your error between x and estimatedX. The relative error will produce the absolute value of the difference between the two values x and estimatedX, divided by the target value x. This produces a value which represents the magnitude of the error in relation to the actual quantity of x.
   - [This wikipedia article was used in understanding relative vs. absolute errors.](https://en.wikipedia.org/wiki/Approximation_error#Formal_Definition)
