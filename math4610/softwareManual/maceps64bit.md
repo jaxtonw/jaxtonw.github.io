@@ -3,7 +3,7 @@
 
 **Author:** Jaxton Winder
 
-**Language:** Python 3.7.4. This routine is dependent on numpy, a mathematical library that comes with many distributions of Python. Use pip installer to run ``pip install numpy`` if numpy is not present in your Python distribution.
+**Language:** Python 3.7.4.
 
 **Description/Purpose:** This routine tests the machine precision of a 64-bit double floating point value. This routine will start epsilon to be a double precision float of 1. It then iterates epsilon to be smaller and smaller to compute the smallest possible value a double precision type can hold and perform meaningful computations with. It then prints the result of each iteration to the console.
 
