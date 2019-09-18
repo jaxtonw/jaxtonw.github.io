@@ -4,7 +4,7 @@
   - If you're Dr. Koebbe, you'll know the results of these tasks. I have emailed you regarding this task.
 + **Task 2:**
   - If you're Dr. Koebbe, you'll know the results of these tasks. I have emailed you regarding this task.
-+ **Task 3:*
++ **Task 3:**
   - If you're Dr. Koebbe, you'll know the results of these tasks. I have emailed you regarding this task.
 + **Task 4:**
   - Checkout [my HelloWorld.py](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Task4) program in my Math 4610 repo.
