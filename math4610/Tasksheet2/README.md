@@ -1,7 +1,7 @@
 # [Tasksheet \#2 Repository]()
 
 ## + Task 1:
-  - Testing MathJax $\frac{5x}{2} = \int_a^b f(x)$
+  - Testing MathJax $$\frac{5x}{2} = \int_a^b f(x)$$
 
 
 ## + Task 2:
