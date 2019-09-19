@@ -1,6 +1,5 @@
 ---
 title: Jaxton Winder's Repositories
-description: This website contains all of the information for Jaxton Winder's Repositories
 ---
 
 # Links To Repositories
