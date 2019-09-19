@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 # [Tasksheet \#2 Repository]()
 
 ## + Task 1:
