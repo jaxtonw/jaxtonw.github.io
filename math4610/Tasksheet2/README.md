@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # [Tasksheet \#2 Repository]()
 
 ## + Task 1:
