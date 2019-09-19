@@ -15,7 +15,7 @@
 + **Task 7:**
   - Checkout [Error Approx](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Errors) in my Math 4610 Repo. I also included a routine that returns the percent representation of a relative error.
 + **Task 8:**
-  -[Here is a link to the software manual table of contents](../softwareManual/README.md). Alternatively, you can directly navigate to the 4 subroutines below.
+  - [Here is a link to the software manual table of contents](../softwareManual/README.md). Alternatively, you can directly navigate to the 4 subroutines below.
   - [maceps32bit](../softwareManual/maceps32bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps32bit.py)
   - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps64bit.py)
   - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/absoluteError.py)
