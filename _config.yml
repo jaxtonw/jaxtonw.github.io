@@ -3,4 +3,4 @@ markdown: kramdown
 kramdown:
    math_engine: mathjax
 name: Jaxton Winder
-markdown: kramdown
+title: Jaxton Winder's Repositories
