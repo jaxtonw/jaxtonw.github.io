@@ -1,7 +1,3 @@
----
-title: Jaxton Winder's Repositories
----
-
 # Links To Repositories
 
 ## Math 4610 Homework Solutions
