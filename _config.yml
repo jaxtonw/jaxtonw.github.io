@@ -1,5 +1,6 @@
 theme: jekyll-theme-midnight
-description: This website contains all of the information for Jaxton Winder's Repositories
-title: Jaxton Winder's Repositories
 markdown: kramdown
+kramdown:
+   math_engine: mathjax
 name: Jaxton Winder
+markdown: kramdown
