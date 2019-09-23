@@ -1,3 +1,5 @@
-* [Table of Contents](./hw_toc.md)
+# Tasksheet Table of Contents
 
-Hmmm... this page is pointless now.
+* [Tasksheet \#1](./Tasksheet1)
+
+* [Tasksheet \#2](./Tasksheet2)
