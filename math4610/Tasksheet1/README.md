@@ -16,10 +16,10 @@
   - Checkout [Error Approx](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Errors) in my Math 4610 Repo. I also included a routine that returns the percent representation of a relative error.
 + **Task 8:**
   - [Here is a link to the software manual table of contents](../softwareManual/README.md). Alternatively, you can directly navigate to the 4 subroutines below.
-  - [maceps32bit](../softwareManual/maceps32bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps32bit.py)
-  - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/maceps64bit.py)
-  - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/absoluteError.py)
-  - [relErr](../softwareManual/relErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/math4610lib/tasksheet1/relativeError.py)
+  - [maceps32bit](../softwareManual/maceps32bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB/tasksheet1/maceps32bit.py)
+  - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/maceps64bit.py)
+  - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB/tasksheet1/absoluteError.py)
+  - [relErr](../softwareManual/relErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/relativeError.py)
 + **Task 9:**
   - To run the program that computes the derivative of e^x about \pi you need to ensure that the math4610lib is installed to your distribution of python. Click [this link](../softwareManual/installation.md) to see installation and update instructions of Jaxton Winder's math4610lib library.
   - After the library is installed, checkout [my DifferenceQuotientAboutPi.py](https://github.com/jaxtonw/math4610/blob/master/Tasksheet1/DifferenceQuotient/DifferenceQuotientAboutPi.py) program for the results of Task 9.
