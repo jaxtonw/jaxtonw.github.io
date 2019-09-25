@@ -16,10 +16,49 @@
   - Checkout [Error Approx](https://github.com/jaxtonw/math4610/tree/master/Tasksheet1/Errors) in my Math 4610 Repo. I also included a routine that returns the percent representation of a relative error.
 + **Task 8:**
   - [Here is a link to the software manual table of contents](../softwareManual/README.md). Alternatively, you can directly navigate to the 4 subroutines below.
+
   - [maceps32bit](../softwareManual/maceps32bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB/tasksheet1/maceps32bit.py)
+
+  import numpy as np
+  def maceps32bit():
+      x, xStar = np.float32(1), np.float32(1)
+      epsilon = np.float32(1)
+      iterationCount = 0
+
+      while abs((xStar + epsilon) - x) != 0:
+          print(f"iteration {iterationCount}: " + str((xStar + epsilon) - x))
+          epsilon = np.float32(epsilon * .5)
+          iterationCount += 1
+
+  print("finish")
+
   - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/maceps64bit.py)
+
+  def maceps64bit():
+      x, xStar = float(1), float(1)
+      epsilon = float(1)
+      iterationCount = 0
+
+      while abs((xStar + epsilon) - x) != 0:
+          print(f"iteration {iterationCount}: " + str((xStar + epsilon) - x))
+          epsilon = float(.5 * epsilon)
+          iterationCount += 1
+
+      print("finish")
+
   - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB/tasksheet1/absoluteError.py)
+
+  def absErr(value, valueApprox):
+      return abs(valueApprox - value)
+
   - [relErr](../softwareManual/relErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/relativeError.py)
+
+  def relErr(value, valueApprox, percent=False):
+      if value == 0: return
+      if percent:
+          return abs((value - valueApprox) / value) * 100
+      return abs((value - valueApprox) / value)
+
 + **Task 9:**
   - To run the program that computes the derivative of e^x about \pi you need to ensure that the math4610lib is installed to your distribution of python. Click [this link](../softwareManual/installation.md) to see installation and update instructions of Jaxton Winder's math4610lib library.
   - After the library is installed, checkout [my DifferenceQuotientAboutPi.py](https://github.com/jaxtonw/math4610/blob/master/Tasksheet1/DifferenceQuotient/DifferenceQuotientAboutPi.py) program for the results of Task 9.
