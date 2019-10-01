@@ -38,8 +38,8 @@ Output from the lines above:
 
 **Implementation/Code:** The following is the code for `AbsoluteError(value, valueApprox)`
 
+    import numpy as np
     def maceps32bit():
-        import numpy as np
 
         x, xStar = np.float32(1), np.float32(1)
         epsilon = np.float32(1)
