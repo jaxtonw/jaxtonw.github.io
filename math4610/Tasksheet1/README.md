@@ -49,15 +49,26 @@
   - [absErr](../softwareManual/absErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB/tasksheet1/absoluteError.py)
 
   def absErr(value, valueApprox):
+<<<<<<< HEAD
       return abs(valueApprox - value)
+=======
+    return abs(valueApprox - value)
+>>>>>>> parent of 00eb1fc... deleted a lot
 
   - [relErr](../softwareManual/relErr.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/relativeError.py)
 
   def relErr(value, valueApprox, percent=False):
+<<<<<<< HEAD
       if value == 0: return
       if percent:
           return abs((value - valueApprox) / value) * 100
       return abs((value - valueApprox) / value)
+=======
+    if value == 0: return
+    if percent:
+      return abs((value - valueApprox) / value) * 100
+    return abs((value - valueApprox) / value)
+>>>>>>> parent of 00eb1fc... deleted a lot
 
 + **Task 9:**
   - To run the program that computes the derivative of e^x about \pi you need to ensure that the math4610lib is installed to your distribution of python. Click [this link](../softwareManual/installation.md) to see installation and update instructions of Jaxton Winder's math4610lib library.
