@@ -30,7 +30,7 @@
           epsilon = np.float32(epsilon * .5)
           iterationCount += 1
 
-  print("finish")
+      print("finish")
 
   - [maceps64bit](../softwareManual/maceps64bit.md) -- [Source Code](https://github.com/jaxtonw/math4610/blob/master/math4610lib/jaxtonwMLIB//tasksheet1/maceps64bit.py)
 
