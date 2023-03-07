@@ -1,9 +1,11 @@
-# Links To Repositories
+# Under Construction
 
-## Math 4610 Homework Solutions
+My personal GitHub pages is currently under construction. It was previously required to be used for a course to host and display a computational mathematics software library, and I am in the process of converting it into a place to display my publicly available works. Thank you for your patience, and my apologies that it is not ready yet!
 
-* [Math 4610 Repositories](https://jaxtonw.github.io/math4610)
+## Links For Math 4610: Foundations of Computational Mathematics
 
-* [math4610lib](https://github.com/jaxtonw/math4610/tree/master/math4610lib)
+* [Math 4610 Repository And Tasksheets](https://jaxtonw.github.io/math4610)
 
-* [Software Manual](https://jaxtonw.github.io/math4610/softwareManual/)
+* [Python Computational Mathematics Library : math4610lib](https://github.com/jaxtonw/math4610/tree/master/math4610lib)
+
+* [Python Computational Mathematics Library Software Manual](https://jaxtonw.github.io/math4610/softwareManual/)
